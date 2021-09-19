@@ -1,0 +1,50 @@
+body{
+  background-color: gray;
+}
+
+#bg{
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(255, 255, 255, 0.65);
+  height: 450px;
+  width: 450px;
+  margin: 6rem auto 8.1rem auto;
+  
+}
+#num1, #num2, #hasil{
+  margin: 10px;
+}
+.oprator{
+  padding: 0 50px;
+}
+input[type=number]{
+  font-size: 32px;
+  border-width: 0px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px rgba(66,66,66,.29);
+}
+input[type=button]{
+  align: center;
+  background-color: white;
+	height: 50px;
+	width: 50px;
+	margin: 3px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+::placeholder{
+  opacity: 20%;
+  font-size: 25px;
+}
+
+.total{
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  color: #666;
+}
